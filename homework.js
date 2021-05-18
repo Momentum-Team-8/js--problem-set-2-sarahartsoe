@@ -41,6 +41,26 @@ const scores = [56, 35, 47, 69, 101]
 
 // 4. Create a function called "average" that takes an array of numbers
 // and returns the average of those numbers.
+function average(numbers) {
+  let box = 0
+  for (let box of numbers){
+      box / x
+  }
+  return box
+}
+console.log("Average is " + average);
+// sum/numbers length = average
+
+    // let total = numbers.length;
+    // let newSum = sum(numbers)
+    // if (numbers.length === 0) {
+    //     return undefined
+    // } 
+    // else {
+    //     return newSum / count
+    // }
+
+    // let average = (numbers) => numbers.reduce((a, b) => a + b) / numbers.length);
 
 // 5. Create a function called "minimum" that takes an array of numbers and
 // returns the smallest number in that array.
