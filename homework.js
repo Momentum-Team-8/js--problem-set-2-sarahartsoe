@@ -42,12 +42,20 @@ const scores = [56, 35, 47, 69, 101]
 // 4. Create a function called "average" that takes an array of numbers
 // and returns the average of those numbers.
 function average(numbers) {
-    let sum = 0;
-    for (let i = 0; i < numbers.length;i++) {
-        sum += numbers[i];
-        }
-        return sum / numbers.length;
-    }
+    let count = numbers.length
+    let newSum = sum(numbers)
+    if (numbers.length === 0) {
+        return undefined
+    } else
+    return newSum / count
+}
+    // let sum = 0;
+    // for (let i = 0; i < numbers.length; i++) {
+    //     sum += numbers[i];
+    //     }
+    //     return sum / numbers.length;
+    
+    // const scores = [56, 35, 47, 69, 101];
 // console.log("Average is " + average);
 // sum/numbers length = average
 
